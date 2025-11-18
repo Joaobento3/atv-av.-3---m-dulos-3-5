@@ -1,0 +1,1 @@
+sistema de biblioteca universitaria aplicada em Python, estruturada padrão arquitetura MVC, orientacao a objetos com banco de dados PostgreSQL
