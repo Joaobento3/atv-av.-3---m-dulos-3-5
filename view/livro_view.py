@@ -4,7 +4,7 @@ from controller.livro_controller import LivroController
 
 class LivroView:
     def menu(self):
-        controller = AutorController()
+        controller = LivroController()
 
         while True:
             print("\n---- GERENCIAR LIVRO ----\n")

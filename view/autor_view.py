@@ -22,11 +22,11 @@ class AutorView:
                 nome = input ("Nome do autor: ")
                 nacionalidade = input("Nacionalidade: ")
 
-                controller.cadastrar(nome, nacionalidade)
+                controller.cadastrar_autor(nome, nacionalidade)
 
 
             elif opcao == "2":
-                autores = controller.listar()
+                autores = controller.listar_autores()
 
                 print("\n=== LISTA DE AUTORES ===")
                 for a in autores:
